@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2504c61e8370db24d9d7756e46b02c28
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - talkText: {instanceID: 0}
+  - talkAvatar: {instanceID: 0}
+  - textFile: {instanceID: 0}
+  - face01: {instanceID: 0}
+  - face02: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
