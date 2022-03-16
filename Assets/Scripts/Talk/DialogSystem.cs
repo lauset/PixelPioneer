@@ -66,15 +66,15 @@ public class DialogSystem : MonoBehaviour
     {
         printFinish = false;
         talkText.text = "";
-
-
+        
         switch (textList[index])
         {
-            case "A\r":
+
+            case "A":
                 talkAvatar.sprite = face01;
                 index++;
                 break;
-            case "B\r":
+            case "B":
                 talkAvatar.sprite = face02;
                 index++;
                 break;
