@@ -61,7 +61,7 @@ public class Movement : MonoBehaviour
         Walk(dir);
         anim.SetHorizontalMovement(x, y, rb.velocity.y);
 
-        if (coll.onWall && Input.GetButton("Fire3") && canMove)
+        if (coll.onWall && Input.GetKeyDown(KeyCode.G) && canMove)
         {
             if(side != coll.wallSide)
                 anim.Flip(side*-1);
@@ -69,7 +69,7 @@ public class Movement : MonoBehaviour
             wallSlide = false;
         }
 
-        if (Input.GetButtonUp("Fire3") || !coll.onWall || !canMove)
+        if (Input.GetKeyDown(KeyCode.G) || !coll.onWall || !canMove)
         {
             wallGrab = false;
             wallSlide = false;
@@ -118,7 +118,7 @@ public class Movement : MonoBehaviour
                 WallJump();
         }
 
-        if (Input.GetButtonDown("Fire1") && !hasDashed)
+        if (Input.GetKeyDown(KeyCode.F) && !hasDashed)
         {
             if(xRaw != 0 || yRaw != 0)
                 Dash(xRaw, yRaw);
