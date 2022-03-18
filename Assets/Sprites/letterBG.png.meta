@@ -1,7 +1,13 @@
 fileFormatVersion: 2
-guid: da4b8e17cce3c0b42823bb90cdcaa196
+guid: e1f4b679614b64c71a48bb18f1c235ce
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7153630545916811425
+    second: letterBG_0
+  - first:
+      213: -2848886807639476286
+    second: letterBG_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,9 +47,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -89,7 +95,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: letterBG_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57ae388be239bc90800000000000000
+      internalID: -7153630545916811425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letterBG_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 24
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c73a51ea88b678d0800000000000000
+      internalID: -2848886807639476286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
